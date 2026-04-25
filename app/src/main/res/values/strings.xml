@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Sulo</string>
+    <string name="Sulo">Sulo</string>
+    <string name="sulo">Sulo</string>
+    <string name="academic_rescue_hub">Academic Rescue Hub</string>
+    <string name="SuloApp">Sulo</string>
+    <string name="academic_rescue_hub_desc">Academic Rescue Hub</string>
+    <string name="emailPlaceholder">name@university.edu</string>
+    <string name="email_address">Email Address</string>
+</resources>
