@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#0066CC"
-    tools:context=".MainActivity" >
+    tools:context=".SignUpPage" >
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
 
         <LinearLayout
             android:layout_width="387dp"
-            android:layout_height="446dp"
+            android:layout_height="472dp"
             android:background="@drawable/rounded_bg"
             android:orientation="vertical"
             tools:ignore="MissingConstraints">
@@ -68,6 +68,29 @@
                     android:layout_height="wrap_content"
                     android:layout_margin="10dp"
                     android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView_Name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif"
+                        android:text="Name"
+                        android:textColor="#003D7A"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/editTextText_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:autofillHints=""
+                        android:ems="10"
+                        android:fontFamily="sans-serif"
+                        android:hint="Name"
+                        android:inputType="textEmailAddress"
+                        android:minHeight="48dp"
+                        android:textColor="#003D7A"
+                        android:textSize="12sp" />
 
                     <TextView
                         android:id="@+id/textView3"
@@ -125,19 +148,6 @@
                             android:inputType="textPassword"
                             android:textColor="#003D7A"
                             android:textStyle="bold" />
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="29dp"
-                            android:orientation="vertical">
-
-                            <CheckBox
-                                android:id="@+id/checkBox"
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:text="Remember me"
-                                android:textSize="10sp" />
-                        </LinearLayout>
                     </LinearLayout>
 
                     <Button
@@ -146,7 +156,7 @@
                         android:layout_height="wrap_content"
                         android:backgroundTint="#0066CC"
                         android:fontFamily="sans-serif"
-                        android:text="LOGIN"
+                        android:text="SIGN UP"
                         android:textColor="#FFFFFF"
                         android:textStyle="bold" />
                 </LinearLayout>
@@ -165,17 +175,10 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:gravity="center"
-                    android:text="Sign Up"
+                    android:text="Log In"
                     android:textSize="14sp" />
 
-                <TextView
-                    android:id="@+id/textView_forgotPassword"
-                    android:layout_width="0dp"
-                    android:layout_height="wrap_content"
-                    android:layout_weight="1"
-                    android:gravity="center"
-                    android:text="Forgot password"
-                    android:textSize="14sp" />
+
             </LinearLayout>
 
         </LinearLayout>
