@@ -7,6 +7,9 @@
         android:label="@string/app_name"
         android:theme="@style/Theme.Sulo">
         <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
             android:name=".SignUpPage"
             android:exported="false" />
         <activity

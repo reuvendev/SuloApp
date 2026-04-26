@@ -16,7 +16,6 @@ public class LoginPage extends AppCompatActivity {
 
 
         TextView textViewSignup = findViewById(R.id.textView_signUp);
-
         textViewSignup.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -25,5 +24,6 @@ public class LoginPage extends AppCompatActivity {
                 finish();
             }
         });
+
     }
 }

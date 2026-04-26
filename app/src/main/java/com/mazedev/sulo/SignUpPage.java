@@ -17,7 +17,6 @@ public class SignUpPage extends AppCompatActivity {
         setContentView(R.layout.activity_sign_up_page);
 
         TextView textViewlogin = findViewById(R.id.textView_signUp);
-
         textViewlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -26,5 +25,6 @@ public class SignUpPage extends AppCompatActivity {
                 finish();
             }
         });
+
     }
 }
